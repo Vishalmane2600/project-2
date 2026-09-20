@@ -20,7 +20,7 @@ sudo npm run build
 echo "=================================="
 echo "Deploying build..."
 echo "=================================="
-sudo cp -r dist/* /TripTour
+sudo cp -r dist/* /Projects-dist
 
 
 sudo nginx -t
