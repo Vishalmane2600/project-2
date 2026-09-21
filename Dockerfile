@@ -6,6 +6,6 @@ COPY . /App
 
 RUN npm install 
 
+EXPOSE 8505
+
 CMD ["npm", "run","dev"]
-
-
