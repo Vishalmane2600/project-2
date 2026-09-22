@@ -6,7 +6,7 @@ FROM node:alpine AS builder
 
 WORKDIR /app
 
-COPY . .
+COPY . /app
 
 RUN npm install
 
